@@ -1,0 +1,38 @@
+@media only screen and (min-width: 767px){
+	#sideform{
+	min-height: 94vh;
+
+}
+
+}
+#sideform{
+	
+	background: linear-gradient(45deg,#fff,#a2f2fe);
+
+}
+.btn, .city-input{
+	border-radius: 20px;
+}
+#sideform p{
+	font-size: 1.3rem;
+}
+.card{
+	background: transparent	;
+}
+#dashboard-card{
+	background-image:url(image.jpg);
+	background-size:initial;
+	
+	background-position: center center;
+	/*background-blend-mode: hard-light;*/
+	background-repeat: no-repeat;
+	opacity: 1;
+
+}
+
+
+footer{
+	position:fixed;
+	bottom:0;
+	width: 100%;
+}
