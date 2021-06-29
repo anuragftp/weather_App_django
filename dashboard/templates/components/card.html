@@ -1,5 +1,5 @@
 {% if weather_data %}
-<div class=" card mx-auto my-5 " style="width: 30rem;" id="dashboard-card">
+<div class=" card mx-auto my-5 " id="dashboard-card">
  
   
   <!--  <img src=url(image.png) class="card-img" alt="..."> -->
@@ -9,7 +9,7 @@
         <tr>
           <td class="border-bottom border-right">
             <div>
-              <h1 class="display-2">{{weather_data.temp}}&deg; C</h1>
+              <h1 class="display-4">{{weather_data.temp}}&deg; C</h1>
             <p><strong>{{weather_data.temp_min}}&deg;C - {{weather_data.temp_max}}&deg;C</strong></p>
             </div>
           </td>
